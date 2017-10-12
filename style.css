@@ -1,0 +1,176 @@
+.container-fluid {
+    padding: 0px;
+}
+
+.navbar {
+   margin: 15px 15px 0 15px;
+}
+
+/* .nav-search {
+    float: left;
+    margin-right: 15px;
+    padding-top: 2px;
+} */
+
+.logo {
+    float: left;
+    margin-right: 15px;
+    padding-top: 2px;
+}
+
+.instagram {
+    color: white;
+    margin-left: -45px;
+}
+.form-group {
+    margin-top: 15px;
+    margin-left: 15px
+}
+
+.img-principal {
+    background-image: url('https://ugc.kn3.net/i/origin/http://miriadna.com/desctopwalls/images/max/Patagonia-(Argentina).jpg');
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.row-content1 {
+    display: flex;
+    width: 100%;
+}
+
+.col-sidebar {
+    background-color: rgba(224, 224, 224, 0.85);
+    padding: 45px 30px 0 15px;
+    left: 15px;
+}
+
+.col-body {
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-left: 45px;
+}
+
+.col-sub-body {
+    padding: 15px;
+    text-align: justify;
+}
+
+.img-secundaria {
+    background-image: url('http://www.nature.com/homepage-assets/npg/homie/images/feat-articles/w300h190/swan-song.jpg');
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 2px;
+}
+
+.img-terciaria1 {
+    background-image: url('https://img.wikinut.com/img/gycf69_-6rv_5fol/jpeg/0/Best-Friends-Img-Src%3AImage%3A-FreeDigitalPhotos.net.jpeg');
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 2px;
+}
+
+.img-terciaria2 {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/9a/Elephant-IMG_3280.JPG');
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 2px;
+}
+
+.divisor {
+    height: 1px;
+    background-color: #cccccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-sidebar {
+    float: none;
+    margin: 0 auto;
+}
+
+.col-h2 {
+    margin: 15px;
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 74px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 400px;
+    margin: 0 40px 0 40px;
+}
+
+.flex-item {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: center;
+}
+
+.flex-container-bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 60px 40px 0 60px;
+}
+
+.flex-item-bottom-right {
+    order: 3;
+    flex: 0 1 auto;
+    align-self: flex-end;
+}
+
+.flex-item-bottom-left {
+    order: 1;
+    flex: 0 1 auto;
+    align-self: flex-end;
+}
+
+.flex-item-bottom-center {
+    order: 2;
+    flex: 0 1 auto;
+    align-self: flex-end;
+}
+
+.label {
+    border: 1px solid rgb(36, 221, 36);
+    color: rgb(36, 221, 36);
+    border-color: rgb(36, 221, 36);
+    font-size: 120%;
+    margin: 20px 15px;
+}
+
+.flex-container-label {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left: ;
+}
