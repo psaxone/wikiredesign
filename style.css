@@ -38,7 +38,6 @@
 }
 
 .row-content1 {
-    display: flex;
     width: 100%;
 }
 
@@ -173,4 +172,12 @@ h4 {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: left: ;
+}
+
+.label-1 {
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(36, 221, 36);
+    padding: 6px;
 }
